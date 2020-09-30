@@ -14,7 +14,6 @@ public class Journal extends Item {
 		return 15;
 	}
 	
-	//getters & setters
 		public String getTheme() {
 			return theme;
 		}

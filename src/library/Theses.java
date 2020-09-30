@@ -4,6 +4,10 @@ public class Theses extends Item {
 	
 	private int noOfChapters;
 	
+	public Theses() {
+		super();
+	}
+	
 	public Theses(int noOfPages, String writerSurname, int itemAge, int noOfChapters) {
 		super(noOfPages, writerSurname, itemAge);
 		this.noOfChapters = noOfChapters;
